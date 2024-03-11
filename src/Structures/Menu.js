@@ -5,8 +5,8 @@ module.exports = class Menu {
 		this.bot = bot;
 		this.interaction = interaction;
 		this.options = options;
-		this.arrowLeft = new MessageButton().setEmoji('⬅️').setCustomId('left').setStyle('PRIMARY');
-		this.arrowRight = new MessageButton().setEmoji('➡️').setCustomId('right').setStyle('PRIMARY');
+		this.arrowLeft = new MessageButton().setEmoji('<:Back:1216646412327063563>').setCustomId('left').setStyle('PRIMARY');
+		this.arrowRight = new MessageButton().setEmoji('<:next:1216646353912856576>').setCustomId('right').setStyle('PRIMARY');
 		this.index = 0;
 	}
 
