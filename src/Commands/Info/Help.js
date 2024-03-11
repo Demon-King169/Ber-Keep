@@ -3,7 +3,7 @@ const { pretty } = require('../../Structures/Utils');
 
 module.exports = {
   name: 'help',
-  description: 'Get some help!',
+  description: 'Get Some help!',
   category: 'Info',
   async run({ interaction, bot }) {
     const set = new Set();
@@ -13,7 +13,7 @@ module.exports = {
     const home = {
       embeds: [
         new MessageEmbed()
-          .setTitle(`Help for ${bot.user.username}`)
+          .setTitle(`${bot.user.username} Help Menu`)
           .setDescription(
             categories
               .map(
